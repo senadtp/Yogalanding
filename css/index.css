@@ -1,0 +1,444 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url("../fonts/Poppins-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: PoppinsExtraBold;
+  src: url("../fonts/Poppins-ExtraBlack.woff") format("woff");
+}
+
+@font-face {
+  font-family: PoppinsRegular;
+  src: url("../fonts/Poppins-Regular.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-family: 'PoppinsRegular';
+  display: inline;
+}
+
+h1 {
+  font-family: 'Poppins';
+}
+
+h6,
+h4 {
+  font-family: 'Poppins';
+}
+
+p {
+  font-family: 'PoppinsExtraBold';
+}
+
+button {
+  font-family: 'Poppins';
+}
+
+header {
+  background: white;
+  padding: .9375rem;
+  margin: auto;
+}
+
+header .main-menu {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+header .main-menu .menu-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .main-menu .menu-right ul li {
+  padding: 15px;
+}
+
+header .main-menu .menu-right ul li a {
+  color: #454f5b;
+  font-size: 20px;
+}
+
+header .main-menu .menu-right ul li:hover {
+  background: #f0c9c4;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+header .main-menu .dropdown {
+  display: none;
+}
+
+#home {
+  background: url(../images/Design.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 100px 0px;
+  margin-top: 70px;
+}
+
+#home .home-content .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+#home .home-content .middle h1 {
+  color: #454f5b;
+  font-size: 70px;
+}
+
+#home .home-content .middle p {
+  color: #454f5b;
+  font-size: 20px;
+}
+
+#home .home-content .middle .btn-pink {
+  color: #454f5b;
+  background: #f0c9c4;
+  padding: 10px 20px;
+}
+
+#about .about-head {
+  background: url(../images/Image2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 250px 0px;
+}
+
+#about .about-head .about-text h1 {
+  color: #454f5b;
+  font-size: 60px;
+  padding: 25px 0px;
+}
+
+#about .about-head .about-text p {
+  color: #454f5b;
+  font-size: 20px;
+  padding: 25px 0px;
+}
+
+#about .about-head .about-text .btn-pink {
+  color: #454f5b;
+  background: #f0c9c4;
+  padding: 10px 20px;
+  margin: 25px 0px;
+}
+
+#about .about-bottom {
+  margin: 50px auto;
+  text-align: center;
+}
+
+#about .about-bottom .col-md-4 h6 {
+  padding: 5px 0px;
+}
+
+#about .about-bottom .col-md-4 p {
+  padding: 5px 0px;
+}
+
+#blog {
+  background: url(../images/Design2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 150px 0px;
+}
+
+#blog .blog-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#blog .blog-content .btn-pink {
+  color: #454f5b;
+  background: #f0c9c4;
+  padding: 10px 20px;
+  margin: 25px 0px;
+}
+
+#blog .blog-content h1 {
+  padding: 5px 0px;
+  color: #454f5b;
+  font-size: 60px;
+}
+
+#blog .blog-content p {
+  padding: 5px 0px;
+  color: #454f5b;
+  font-size: 20px;
+}
+
+#training {
+  padding: 190px 0px;
+  background: url(../images/Image4.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#training .training-content {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#training .training-content .btn-pink {
+  color: #454f5b;
+  background: #f0c9c4;
+  padding: 10px 20px;
+  margin: 25px 0px;
+}
+
+#training .training-content h1 {
+  padding: 5px 0px;
+  color: #454f5b;
+  font-size: 60px;
+}
+
+#training .training-content p {
+  padding: 5px 0px;
+  color: #454f5b;
+  font-size: 20px;
+}
+
+#galery {
+  background: url(../images/Design4.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 50px 0px;
+}
+
+#galery .galery-top {
+  margin: 50px 200px;
+}
+
+#galery .galery-top h1,
+#galery .galery-top p {
+  color: #454f5b;
+}
+
+#galery .galery-content {
+  margin: 50px 0px;
+}
+
+#galery .galery-content .galery-card {
+  -webkit-box-shadow: 5px 5px 10px #454f5b;
+          box-shadow: 5px 5px 10px #454f5b;
+  background: white;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
+
+#galery .galery-content .galery-card img {
+  padding: 0;
+  margin: 0;
+}
+
+#galery .galery-content .galery-card h4 {
+  padding: 10px;
+  color: #454f5b;
+  margin-top: 10px;
+}
+
+#galery .galery-content .galery-card p {
+  padding: 10px;
+  color: #454f5b;
+}
+
+#yogatraining {
+  padding: 150px 0px;
+  background: #f0cdc7;
+}
+
+#yogatraining .overlay-container img {
+  filter: drop-shadow(30px 10px 4px #454f5b);
+  -webkit-filter: drop-shadow(10px 10px 4px #454f5b);
+}
+
+#yogatraining .overlay-container .overlay img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  opacity: 0.5;
+  max-width: 100%;
+}
+
+#yogatraining .overlay-container .overlay:hover img {
+  opacity: 1;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+#yogatraining .yogatext h1 {
+  font-size: 50px;
+  color: #454f5b;
+}
+
+#yogatraining .yogatext p {
+  color: #454f5b;
+  font-size: 20px;
+}
+
+#yogatraining .yogatext .icons i {
+  font-size: 30px;
+  margin: 0px 10px;
+  color: #454f5b;
+}
+
+#contact {
+  background: url(../images/Design5.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#contact .contact-top {
+  padding: 100px 0px 0px 0px;
+}
+
+#contact .contact-top h1 {
+  font-size: 50px;
+  color: #454f5b;
+}
+
+#contact .contact-top p {
+  color: #454f5b;
+  font-size: 20px;
+}
+
+#contact .contact-content {
+  padding: 50px 200px;
+}
+
+#contact .contact-content .form-group {
+  padding: 0px 0px;
+}
+
+#contact .contact-content .form-group input[type=text] {
+  padding: 10px;
+  margin: 20px;
+  background-color: #efefef;
+  font-family: 'Poppins';
+}
+
+#contact .contact-content .form-group .btn-pink {
+  margin: 30px 0px;
+  color: #454f5b;
+  background: #f0c9c4;
+  padding: 10px 20px;
+}
+
+#contact .contact-content .form-group input[type=message] {
+  padding: 10px;
+  margin: 20px;
+  background-color: #efefef;
+  font-family: 'Poppins';
+  height: 150px;
+  text-align: start;
+}
+
+footer {
+  background: #444e5a;
+  padding: 50px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: outside;
+}
+
+footer ul li {
+  list-style-position: outside;
+  text-align: left;
+  list-style: none;
+  list-style-type: none;
+  text-align: start;
+}
+
+footer ul li a {
+  text-align: left;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 15px;
+}
+
+footer ul li a:hover {
+  color: #fff7e4;
+}
+
+footer h5,
+footer h6,
+footer p {
+  color: white;
+  font-family: 'PoppinsBold';
+}
+
+footer a {
+  font-family: 'PoppinsRegular';
+}
+
+footer .icons i {
+  font-size: 30px;
+  margin: 0px 10px;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */

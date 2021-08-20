@@ -1,0 +1,301 @@
+@media only screen and (max-width: 1440px) {
+    #about {
+        .about-head {
+            padding: 100px 0px;
+        }
+    }
+    #training {
+        padding: 100px 0px;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    #home {
+        padding: 80px 0px;
+        .home-content {
+            .middle {
+                h1 {
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+    #about {
+        .about-head {
+            .about-text {
+                h1 {
+                    font-size: 50px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+    #blog {
+        h1 {
+            font-size: 50px;
+        }
+    }
+    #training {
+        padding: 90px 0px;
+        .training-content {
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+    #yogatraining {
+        padding: 100px 0px;
+        .yogatext {
+            h1 {
+                font-size: 40px;
+                color: #454f5b;
+            }
+        }
+    }
+    #contact {
+        .contact-top {
+            padding: 100px 0px 0px 0px;
+            h1 {
+                font-size: 40px;
+                color: #454f5b;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    #home {
+        padding: 70px 0px;
+        .home-content {
+            .middle {
+                h1 {
+                    font-size: 55px;
+                }
+            }
+        }
+    }
+    #about {
+        .about-head {
+            .about-text {
+                h1 {
+                    font-size: 45px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+    #blog {
+        h1 {
+            font-size: 45px;
+        }
+    }
+    #training {
+        padding: 80px 0px;
+        .training-content {
+            h1 {
+                font-size: 45px;
+            }
+        }
+    }
+    #yogatraining {
+        padding: 80px 0px;
+        .yogatext {
+            h1 {
+                font-size: 40px;
+                color: #454f5b;
+            }
+        }
+    }
+    #contact {
+        .contact-top {
+            padding: 100px 0px 0px 0px;
+            h1 {
+                font-size: 40px;
+                color: #454f5b;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    header {
+        padding: 0px 10px;
+        .main-menu {
+            .menu-right {
+                ul {
+                    li {
+                        padding: 15px;
+                        a {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #home {
+        padding: 50px 0px;
+        .home-content {
+            .middle {
+                h1 {
+                    font-size: 45px;
+                }
+                p {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    #about {
+        .about-head {
+            .about-text {
+                h1 {
+                    font-size: 40px;
+                    padding: 0;
+                }
+                p {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    #blog {
+        padding: 80px 0px;
+        .blog-content {
+            h1 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+    #training {
+        padding: 40px 0px;
+        .training-content {
+            padding: 0;
+            margin: 0;
+            h1 {
+                font-size: 40px;
+                padding: 0;
+                margin: 0;
+            }
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+    #galery {
+        margin: 0;
+        padding: 0px;
+        .galery-top {
+            margin: 0px;
+        }
+        .galery-content {
+            .galery-card {
+                width: 200px;
+            }
+        }
+    }
+    #yogatraining {
+        margin: 0;
+        padding: 50px 0px;
+        .yogatext {
+            h1 {
+                font-size: 35px;
+                color: #454f5b;
+            }
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+    #contact {
+        .contact-top {
+            padding: 50px 0px 0px 0px;
+            h1 {
+                font-size: 35px;
+                color: #454f5b;
+            }
+            p {
+                font-size: 17px;
+            }
+        }
+        .contact-content {
+            padding: 10px 100px;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    header {
+        .main-menu {
+            .menu-right {
+                display: none;
+            }
+            .dropdown {
+                display: block;
+            }
+        }
+    }
+    #home {
+        .home-content {
+            .col-md-6 {
+                img {
+                    display: none;
+                }
+                .home-content-text {
+                    margin: auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    #about {
+        margin: auto;
+        text-align: center;
+    }
+    #blog {
+        margin: auto;
+        text-align: center;
+    }
+    #training {
+        margin: auto;
+        text-align: center;
+    }
+    #galery {
+        margin: 0;
+        padding: 0px;
+        .galery-top {
+            margin: 0px;
+        }
+        .galery-content {
+            .galery-card {
+                width: 300px;
+            }
+        }
+    }
+    #yogatraining {
+        text-align: center;
+        margin: auto;
+    }
+    footer {
+        margin: auto;
+        text-align: center;
+        .col-md-3,
+        .col-md-2 {
+            padding: 20px 0px;
+            h6 {
+                font-size: 30px;
+            }
+            ul {
+                margin: auto;
+                text-align: center;
+                li {
+                    margin: auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
